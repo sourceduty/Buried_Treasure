@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7dea4fc5c3d9904a6d2c670d6f304011 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7dea4fc5c3d9904a6d2c670d6f304011" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7dea4fc5c3d9904a6d2c670d6f304011 = L.map(
+                "map_7dea4fc5c3d9904a6d2c670d6f304011",
+                {
+                    center: [10.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ab9e467156836ddae685ff09b7009f88 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ab9e467156836ddae685ff09b7009f88.addTo(map_7dea4fc5c3d9904a6d2c670d6f304011);
+        
+    
+            var marker_2cdeb9b106b3daf1767a61601ffccf77 = L.marker(
+                [64.8333, -23.1167],
+                {
+}
+            ).addTo(map_7dea4fc5c3d9904a6d2c670d6f304011);
+        
+    
+            var icon_7e2778c460702f2a2afff104a9e3d8cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2cdeb9b106b3daf1767a61601ffccf77.setIcon(icon_7e2778c460702f2a2afff104a9e3d8cf);
+        
+    
+        var popup_5062dace276fac16ac759ab5067b346a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f69f9645057f84590b56c5b5b5e9f19 = $(`<div id="html_4f69f9645057f84590b56c5b5b5e9f19" style="width: 100.0%; height: 100.0%;">Snaefellsnes Peninsula, Iceland</div>`)[0];
+                popup_5062dace276fac16ac759ab5067b346a.setContent(html_4f69f9645057f84590b56c5b5b5e9f19);
+            
+        
+
+        marker_2cdeb9b106b3daf1767a61601ffccf77.bindPopup(popup_5062dace276fac16ac759ab5067b346a)
+        ;
+
+        
+    
+    
+            var marker_6f900bcca69b093cea78f6936b043c58 = L.marker(
+                [58.5, -63.5],
+                {
+}
+            ).addTo(map_7dea4fc5c3d9904a6d2c670d6f304011);
+        
+    
+            var icon_d46be54053915d0781fc3ff52a3bd0c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6f900bcca69b093cea78f6936b043c58.setIcon(icon_d46be54053915d0781fc3ff52a3bd0c4);
+        
+    
+        var popup_863467ffd6050e6bbe8f4b4b58347919 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c39e6c6a62995f9c039eebb42044bc1d = $(`<div id="html_c39e6c6a62995f9c039eebb42044bc1d" style="width: 100.0%; height: 100.0%;">Torngat Mountains, Canada</div>`)[0];
+                popup_863467ffd6050e6bbe8f4b4b58347919.setContent(html_c39e6c6a62995f9c039eebb42044bc1d);
+            
+        
+
+        marker_6f900bcca69b093cea78f6936b043c58.bindPopup(popup_863467ffd6050e6bbe8f4b4b58347919)
+        ;
+
+        
+    
+    
+            var marker_16298144339b3f1cb04fa022ad898616 = L.marker(
+                [-29.35, 29.6],
+                {
+}
+            ).addTo(map_7dea4fc5c3d9904a6d2c670d6f304011);
+        
+    
+            var icon_f2c8dfdd22e05b30a645cc05e1a0a6be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_16298144339b3f1cb04fa022ad898616.setIcon(icon_f2c8dfdd22e05b30a645cc05e1a0a6be);
+        
+    
+        var popup_d193ab5df3e096a5e6b68df8d50c503c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_107b8b58b7441aebfc000409c3cad384 = $(`<div id="html_107b8b58b7441aebfc000409c3cad384" style="width: 100.0%; height: 100.0%;">Drakensberg Mountains, South Africa</div>`)[0];
+                popup_d193ab5df3e096a5e6b68df8d50c503c.setContent(html_107b8b58b7441aebfc000409c3cad384);
+            
+        
+
+        marker_16298144339b3f1cb04fa022ad898616.bindPopup(popup_d193ab5df3e096a5e6b68df8d50c503c)
+        ;
+
+        
+    
+    
+            var marker_36bbe7feba8172fef06f7d95a6924aff = L.marker(
+                [48.0, 88.0],
+                {
+}
+            ).addTo(map_7dea4fc5c3d9904a6d2c670d6f304011);
+        
+    
+            var icon_d584dda060be66d6c3a6ec3fc2974d20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_36bbe7feba8172fef06f7d95a6924aff.setIcon(icon_d584dda060be66d6c3a6ec3fc2974d20);
+        
+    
+        var popup_43313bee5a7585f3e2e208733eaab0ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d41ce4e99613f7050ff8d4f33790bbf = $(`<div id="html_6d41ce4e99613f7050ff8d4f33790bbf" style="width: 100.0%; height: 100.0%;">Altai Mountains, Mongolia</div>`)[0];
+                popup_43313bee5a7585f3e2e208733eaab0ba.setContent(html_6d41ce4e99613f7050ff8d4f33790bbf);
+            
+        
+
+        marker_36bbe7feba8172fef06f7d95a6924aff.bindPopup(popup_43313bee5a7585f3e2e208733eaab0ba)
+        ;
+
+        
+    
+    
+            var marker_ab3e223bf9c0b59298f11f6bd15cf800 = L.marker(
+                [8.918, 98.5268],
+                {
+}
+            ).addTo(map_7dea4fc5c3d9904a6d2c670d6f304011);
+        
+    
+            var icon_605ff4f07146fc89498fcb6a7d366076 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ab3e223bf9c0b59298f11f6bd15cf800.setIcon(icon_605ff4f07146fc89498fcb6a7d366076);
+        
+    
+        var popup_b905001470c74cbb708244633d2f14c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b603bf701a448d3ee21ec4e5749694ea = $(`<div id="html_b603bf701a448d3ee21ec4e5749694ea" style="width: 100.0%; height: 100.0%;">Khao Sok National Park, Thailand</div>`)[0];
+                popup_b905001470c74cbb708244633d2f14c0.setContent(html_b603bf701a448d3ee21ec4e5749694ea);
+            
+        
+
+        marker_ab3e223bf9c0b59298f11f6bd15cf800.bindPopup(popup_b905001470c74cbb708244633d2f14c0)
+        ;
+
+        
+    
+    
+            var marker_93637b220834b871144913d7c70d66a2 = L.marker(
+                [4.637, -75.5078],
+                {
+}
+            ).addTo(map_7dea4fc5c3d9904a6d2c670d6f304011);
+        
+    
+            var icon_95ba6beaf7a8e915f0c55aefcffe767a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_93637b220834b871144913d7c70d66a2.setIcon(icon_95ba6beaf7a8e915f0c55aefcffe767a);
+        
+    
+        var popup_3af298d2c68a5a6609d01a53e9433a2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c8b4bcb1536b4910e8da958eef22e82 = $(`<div id="html_4c8b4bcb1536b4910e8da958eef22e82" style="width: 100.0%; height: 100.0%;">Valle de Cocora, Colombia</div>`)[0];
+                popup_3af298d2c68a5a6609d01a53e9433a2a.setContent(html_4c8b4bcb1536b4910e8da958eef22e82);
+            
+        
+
+        marker_93637b220834b871144913d7c70d66a2.bindPopup(popup_3af298d2c68a5a6609d01a53e9433a2a)
+        ;
+
+        
+    
+    
+            var marker_3d3ab3d77737bda8555bb6a427c3ad43 = L.marker(
+                [56.0, 160.0],
+                {
+}
+            ).addTo(map_7dea4fc5c3d9904a6d2c670d6f304011);
+        
+    
+            var icon_de454885d383f59c7e17eb4d1f73530b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3d3ab3d77737bda8555bb6a427c3ad43.setIcon(icon_de454885d383f59c7e17eb4d1f73530b);
+        
+    
+        var popup_2f2fdeb8430bbcc252194faa5673f822 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5a7711af556b849104ca1b34e8eef59 = $(`<div id="html_e5a7711af556b849104ca1b34e8eef59" style="width: 100.0%; height: 100.0%;">Kamchatka Peninsula, Russia</div>`)[0];
+                popup_2f2fdeb8430bbcc252194faa5673f822.setContent(html_e5a7711af556b849104ca1b34e8eef59);
+            
+        
+
+        marker_3d3ab3d77737bda8555bb6a427c3ad43.bindPopup(popup_2f2fdeb8430bbcc252194faa5673f822)
+        ;
+
+        
+    
+    
+            var marker_11ed7836725947226c771868ba06a253 = L.marker(
+                [35.7422, 76.1544],
+                {
+}
+            ).addTo(map_7dea4fc5c3d9904a6d2c670d6f304011);
+        
+    
+            var icon_888c1e6bdacf44fc816a30f7550b2993 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_11ed7836725947226c771868ba06a253.setIcon(icon_888c1e6bdacf44fc816a30f7550b2993);
+        
+    
+        var popup_d8686c8762e02692c35027c9f843692a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38d1f84cbaef3009e18bab556299132f = $(`<div id="html_38d1f84cbaef3009e18bab556299132f" style="width: 100.0%; height: 100.0%;">Trango Towers, Pakistan</div>`)[0];
+                popup_d8686c8762e02692c35027c9f843692a.setContent(html_38d1f84cbaef3009e18bab556299132f);
+            
+        
+
+        marker_11ed7836725947226c771868ba06a253.bindPopup(popup_d8686c8762e02692c35027c9f843692a)
+        ;
+
+        
+    
+    
+            var marker_22b7685f13b2b8b4abe52ec7acbbbc65 = L.marker(
+                [-45.417, 167.718],
+                {
+}
+            ).addTo(map_7dea4fc5c3d9904a6d2c670d6f304011);
+        
+    
+            var icon_6d6fd10f271e1aa24a2427299a58eeae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_22b7685f13b2b8b4abe52ec7acbbbc65.setIcon(icon_6d6fd10f271e1aa24a2427299a58eeae);
+        
+    
+        var popup_728312a1c09f7ad9907249591d2395fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe6b84e3bff58d6eabedc3bcf481c9ba = $(`<div id="html_fe6b84e3bff58d6eabedc3bcf481c9ba" style="width: 100.0%; height: 100.0%;">Fiordland National Park, New Zealand</div>`)[0];
+                popup_728312a1c09f7ad9907249591d2395fd.setContent(html_fe6b84e3bff58d6eabedc3bcf481c9ba);
+            
+        
+
+        marker_22b7685f13b2b8b4abe52ec7acbbbc65.bindPopup(popup_728312a1c09f7ad9907249591d2395fd)
+        ;
+
+        
+    
+    
+            var marker_88cca63512f0e0907d48194c054eeff5 = L.marker(
+                [-24.738, 15.265],
+                {
+}
+            ).addTo(map_7dea4fc5c3d9904a6d2c670d6f304011);
+        
+    
+            var icon_702d7ccbc5099b86766cc2eb4a0bc4e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_88cca63512f0e0907d48194c054eeff5.setIcon(icon_702d7ccbc5099b86766cc2eb4a0bc4e3);
+        
+    
+        var popup_71b5d5dd33d6d9bf58fbd12881d3fefa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d264884e3979d12b6aea761d341bff47 = $(`<div id="html_d264884e3979d12b6aea761d341bff47" style="width: 100.0%; height: 100.0%;">Namib Desert Canyons, Namibia</div>`)[0];
+                popup_71b5d5dd33d6d9bf58fbd12881d3fefa.setContent(html_d264884e3979d12b6aea761d341bff47);
+            
+        
+
+        marker_88cca63512f0e0907d48194c054eeff5.bindPopup(popup_71b5d5dd33d6d9bf58fbd12881d3fefa)
+        ;
+
+        
+    
+</script>
+</html>
