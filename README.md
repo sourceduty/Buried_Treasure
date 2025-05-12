@@ -1,4 +1,4 @@
-![Treasure](https://github.com/user-attachments/assets/e0746d59-df28-4702-9838-ba21f505e359)
+![Buried Treasure](https://github.com/user-attachments/assets/ea2e4de2-040a-41db-bb5b-2d601bf3433b)
 
 #
 
