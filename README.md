@@ -17,3 +17,5 @@ The Python program is designed to visualize ten carefully selected treasure buri
 #
 
 [Buried Treasure X](https://chatgpt.com/g/g-67af8b3b4334819190f20f8fc5ef3ba3-buried-treasure-x)
+<br>
+[Dig X](https://chatgpt.com/g/g-6774c05e5abc81918b91829e98ebd8d5-dig-x)
